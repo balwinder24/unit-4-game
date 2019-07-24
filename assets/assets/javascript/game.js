@@ -16,27 +16,27 @@
     
     
     
-    $("#gem1").on("click", function() {
+$("#gem1").on("click", function() {
     
-        score = score + gem1;
-        $("#score").html(score);
-        console.log("score1 " + score);
-        if (score === computerGuess) {
-            checkifwon();
-        }else if (score > computerGuess) {
-            checkifwon();
+ score = score + gem1;
+$("#score").html(score);
+ console.log("score1 " + score);
+ if (score === computerGuess) {
+  checkifwon();
+ }else if (score > computerGuess) {
+     checkifwon();
         }
 });
 
 $("#gem2").on("click", function() {
 
-        score = score + gem2;
-        $("#score").html(score);
-        console.log("score2 " + score);
-        if (score === computerGuess) {
-            checkifwon();
-        }else if (score > computerGuess) {
-            checkifwon();
+score = score + gem2;
+ $("#score").html(score);
+  console.log("score2 " + score);
+  if (score === computerGuess) {
+   checkifwon();
+    }else if (score > computerGuess) {
+     checkifwon();
         }
 });
 
@@ -46,9 +46,9 @@ $("#gem3").on("click", function() {
         $("#score").html(score);
         console.log("score3 " + score);
         if (score === computerGuess) {
-            checkifwon();
+       checkifwon();
         }else if (score > computerGuess) {
-            checkifwon();
+        checkifwon();
         }
 });
 
@@ -58,8 +58,8 @@ $("#gem4").on("click", function() {
         $("#score").html(score);
         console.log("score4 " + score);
         if (score ===computerGuess) {
-            checkifwon();
+        checkifwon();
         }else if (score > computerGuess) {
-            checkifwon();
+         checkifwon();
         }
 });
